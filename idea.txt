@@ -1,0 +1,18 @@
+時間：
+MultiTQ 資料集(from TimeR4)
+./Dataset 
+=> 完整的 dataset 與針對 dataset 的問題，主要是比對答案是否正確
+
+TempQ4NLIDB：
+https://github.com/IBM/TempQ4NLIDB-dataset
+
+空間：
+SSpa：有完整的 dataset / benchmark (SpatialSQL)
+https://github.com/beta512/SpatialSQL
+
+Text-to-SpatialSQL: A LLM Based Method for Generating Spatial SQL Queries With Geo-Knowledge Extracted From Software User Manual
+沒有 github
+=> 以SSpa為 baseline 優化，有實驗數據，但沒有提供 dataset，數據顯示 
+
+目前想法：在 SSpa 的 dataset 下重現 Text-to-SpatialSQL 的方法，比較兩者間的分數，
+         理想上重現成功，優化 text-to-SpatialSQL

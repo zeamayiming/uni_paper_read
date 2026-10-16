@@ -16,3 +16,4 @@ Text-to-SpatialSQL: A LLM Based Method for Generating Spatial SQL Queries With G
 
 目前想法：在 SSpa 的 dataset 下重現 Text-to-SpatialSQL 的方法，比較兩者間的分數，
          理想上重現成功，優化 text-to-SpatialSQL
+         問題：感覺有可能在 SSpa 環境下重現會比不出差別

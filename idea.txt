@@ -22,6 +22,9 @@ https://github.com/HanzhouLiu/FloodSQL-Bench/blob/main/benchmark/bechmark_update
 有 dataset benchmark，並且 benchmark 相對完整，
 https://huggingface.co/datasets/HanzhouLiu/FloodSQL-Bench
 
+SpatialQueryQA：
+https://github.com/Autonomous-GIS/Spatial-Text-to-SQL
+
 目前想法：在 SSpa 的 dataset 下重現 Text-to-SpatialSQL 的方法，比較兩者間的分數，
          理想上重現成功，優化 text-to-SpatialSQL
          問題：感覺有可能在 SSpa 環境下重現會比不出差別
